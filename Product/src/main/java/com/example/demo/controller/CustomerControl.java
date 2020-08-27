@@ -76,6 +76,7 @@ public class CustomerControl {
 	 * @param id
 	 * @return
 	 */
+	//deleting
 	@DeleteMapping("/delete/customer")
 	public int deleteProduct(int id) {
 		return customerService.deleteCustomerById(id);
